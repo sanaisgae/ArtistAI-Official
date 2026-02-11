@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
 import ChatBot from './ChatBot';
