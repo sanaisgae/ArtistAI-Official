@@ -62,7 +62,7 @@ const ChatBox = ({ messages, setMessages, selectedArtist, onMenuClick }) => {
         <div className="flex-1 overflow-y-auto space-y-6 md:space-y-8 pr-2 md:pr-4 custom-scrollbar">
           {!selectedArtist && (
              <div className="flex h-full items-center justify-center">
-                <p className="text-[#FFFEFE]/20 text-[18px] md:text-[25px] text-center px-4">Choose your Artist from the menu to begin.</p>
+                <p className="text-[#FFFEFE]/20 text-[18px] md:text-[25px] text-center px-4">Choose your Artist from the menu to begin!</p>
              </div>
           )}
           
